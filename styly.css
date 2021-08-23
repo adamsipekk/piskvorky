@@ -19,8 +19,7 @@ width: 30%;
 display: flex;
 flex-direction: column;
 width:460px;
-border-top-left-radius: 8px;
-border-top-right-radius: 8px;
+
 
 }
 
@@ -70,6 +69,7 @@ align-items: center;
 }
 .text2{
     background-color: #283e50;
+    border-radius: 8px 8px 0 0;
 
  }
 p{
@@ -89,8 +89,7 @@ p{
     background-color: #0090e9;
   }
   .img1{
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px 8px 0 0;
   }
 
   .obal-obrazky {
@@ -112,6 +111,15 @@ justify-content: space-evenly;
   figcaption{
     color:white;
     font-family: arial;
-    font-size: 16px;
-    margin:0 auto;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom:15px;
+  }
+  @media only screen and (max-width: 500px) {
+    .obal-obrazky {
+      flex-direction: column;
+    }
+    .obal{
+        width:300px;
+    }
   }
