@@ -18,7 +18,7 @@ margin: 0 auto;
 width: 30%;
 display: flex;
 flex-direction: column;
-width:400px;
+width:460px;
 border-top-left-radius: 8px;
 border-top-right-radius: 8px;
 
@@ -95,7 +95,7 @@ p{
   }
 
   .obal-obrazky {
-max-width: 400px;
+/*max-width: 400px;*/
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -105,7 +105,8 @@ justify-content: space-evenly;
   }
   .img-pravidla{
 
-    width: 150px;
-    height:150px;
-    
+    width: 200px;
+    margin: 0 auto;
+    /*height:150px;*/
+
   }
