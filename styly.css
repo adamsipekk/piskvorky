@@ -47,10 +47,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-    
+
 }
 .pravidla{
-    
+
     color:white;
     text-decoration: none;
     background-color: #1fcca4;
@@ -60,12 +60,11 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 
 }
 .text{
    background-color: #283e50;
-   
    text-align: center;
 
 }
