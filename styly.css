@@ -109,3 +109,9 @@ justify-content: space-evenly;
     /*height:150px;*/
 
   }
+  figcaption{
+    color:white;
+    font-family: arial;
+    font-size: 16px;
+    margin:0 auto;
+  }
