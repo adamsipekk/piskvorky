@@ -1,3 +1,17 @@
+html {
+    height: 100%;
+}
+
+body {
+    background:linear-gradient(#615dad,#ffc8da);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
 .obal {
 padding-top: 50px;
 margin: 0 auto;
@@ -20,18 +34,8 @@ h1 {
     
 
 }
-body {
-    background:linear-gradient(#615dad,#ffc8da);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 
 
-}
-html {
-    height: 100%;
-}
 .zacithrat{
 
 color:white;
@@ -67,9 +71,7 @@ align-items: center;
 }
 .text2{
     background-color: #283e50;
-    
-    
- 
+
  }
 p{
     color:white;
@@ -79,7 +81,7 @@ p{
     width:80%;
     margin:0 auto;
 
-    
+
 }
 .pravidla:hover {
     background-color: #1cbb96;
@@ -87,13 +89,13 @@ p{
   .zacithrat:hover {
     background-color: #0090e9;
   }
-  img{
+  .img1{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
 
   .obal-obrazky {
-max-width: 350px;
+max-width: 400px;
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
