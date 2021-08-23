@@ -98,3 +98,8 @@ display:flex;
 flex-direction: row;
 
   }
+  .img-pravdila{
+
+    width: 50px;
+    height:50px;
+  }
