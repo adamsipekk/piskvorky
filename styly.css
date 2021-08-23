@@ -65,7 +65,7 @@ align-items: center;
    text-align: center;
 
 }
-.text{
+.text2{
     background-color: #283e50;
     
     
@@ -90,4 +90,11 @@ p{
   img{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+  }
+
+  .obal-obrazky {
+width: 350px;
+display:flex;
+flex-direction: row;
+
   }
