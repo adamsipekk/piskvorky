@@ -115,7 +115,7 @@ justify-content: space-evenly;
     text-align: center;
     padding-bottom:15px;
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 530px) {
     .obal-obrazky {
       flex-direction: column;
     }
