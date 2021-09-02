@@ -178,6 +178,18 @@ justify-content: space-evenly;
     text-align: center;
     padding-bottom:15px;
   }
+button{
+width:20px;
+height:20px;
+}
+.piskvorky{
+  width:300px;
+display:flex;
+flex-direction:row;
+justify-content: space-evenly;
+align-content: center;
+align-items: center;
+}
   @media only screen and (max-width: 530px) {
     .obal-obrazky {
       flex-direction: column; /*tohle je zde zbytenčné*/
