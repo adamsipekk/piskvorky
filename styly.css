@@ -22,6 +22,16 @@ width:460px;
 
 
 }
+.obal-hra {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width:80vmin;
+  
+  
+  }
 
 h1 {
 
@@ -48,6 +58,19 @@ align-items: center;
 
 
 }
+.restart-button{
+
+  color:white;
+  text-decoration: none;
+  background-color:#0197f6 ;
+  height: 25px;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
 .pravidla{
 
     color:white;
@@ -62,14 +85,33 @@ align-items: center;
 
 
 }
+.home-button{
+
+  color:white;
+  text-decoration: none;
+  background-color: #1fcca4;
+  height: 25px;
+  font-family: arial;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
 .text{
    background-color: #283e50;
    text-align: center;
 
-}
+}                       /*tady by se to mohlo propojit*/
 .text2{
     background-color: #283e50;
     border-radius: 8px 8px 0 0;
+
+ }
+ .nadpis{
+    background: transparent;
+    text-align:center;
 
  }
 p{
@@ -126,7 +168,7 @@ justify-content: space-evenly;
   }
   @media only screen and (max-width: 530px) {
     .obal-obrazky {
-      flex-direction: column;
+      flex-direction: column; /*tohle je zde zbytenčné*/
     }
     .obal{
         width:300px;
