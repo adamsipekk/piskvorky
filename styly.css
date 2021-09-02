@@ -35,7 +35,7 @@ width:460px;
 .tlacitka-hra{
 display:flex;
 flex-direction: row;
-
+justify-content: flex-end;
 }
 h1 {
 
@@ -73,8 +73,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
+  padding:5px;
   }
 .pravidla{
 
