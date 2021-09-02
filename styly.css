@@ -32,7 +32,11 @@ width:460px;
   
   
   }
+.tlacitka-hra{
+display:flex;
+flex-direction: row;
 
+}
 h1 {
 
     font-family: Lobster;
