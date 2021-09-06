@@ -182,11 +182,12 @@ justify-content: space-evenly;
 button{
 width:10%;
 height:0;
-padding-bottom: 10%;
+padding-bottom: 9.86%;
 background: #ffffff61;
 border-width: 1px;
 padding-top: 0px;
 cursor: pointer;
+border-bottom: thin;
 }
 button:hover{
   background: #ffffff2e;
@@ -209,4 +210,8 @@ margin-top: 50px;
     .obal{
         width:300px;
     }
+    .button {
+      padding-bottom: 9.67%;
+    }
   }
+ 
