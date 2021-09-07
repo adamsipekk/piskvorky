@@ -37,6 +37,12 @@ display:flex;
 flex-direction: row;
 justify-content: flex-end;
 }
+.horni-wrap{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
 h1 {
 
     font-family: Lobster;
@@ -45,6 +51,14 @@ h1 {
     line-height: 22px;
     font-weight: 500;
 
+
+}
+h2{
+
+  font-size: 45px;
+  color:white;
+  line-height: 22px;
+  font-weight: 500;
 
 }
 
