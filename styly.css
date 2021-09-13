@@ -192,14 +192,14 @@ justify-content: space-evenly;
     padding-bottom:15px;
   }
 button{
-width:10%;
-height:0;
-padding-bottom: 9.86%;
+width:8vmin;
+height:8vmin;
+/*padding-bottom: 9.86%;*/
 background: #ffffff61;
 border-width: 1px;
 padding-top: 0px;
 cursor: pointer;
-border-bottom: thin;
+/*border-bottom: thin;*/
 }
 button:hover{
   background: #ffffff2e;
@@ -223,7 +223,6 @@ margin-top: 50px;
         width:300px;
     }
     .button {
-      padding-bottom: 9.67%;
+      /*padding-bottom: 9.67%;*/
     }
   }
- 
