@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
-* {
-  box-sizing: border-box;
-}
 body {
   background-color: #181818;
   display: flex;
@@ -11,7 +7,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: "Lato", sans-serif;
   margin: 0;
 }
 
@@ -48,9 +43,7 @@ body {
 .seat.selected {
   background-color: #6feaf6;
 }
-.seat.occupied {
-  background-color: #fff;
-}
+
 
 .seat:nth-of-type(2) {
   margin-right: 18px;
@@ -59,14 +52,11 @@ body {
   margin-left: 18px;
 }
 
-.seat:not(.occupied):hover {
+.seat:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
-.showcase.seat:not(.occupied):hover {
-  cursor: default;
-  transform: scale(1);
-}
+
 
 .showcase {
   background-color: rgba(0, 0, 0, 0.1);
