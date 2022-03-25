@@ -13,15 +13,15 @@ function setMovieData(movieIndex) {
 
 // Update total
 
-//function updateSelectedCount() {
- // const selectedSeats = document.querySelectorAll(".row .seat.selected");
+function updateSelectedCount() {
+  const selectedSeats = document.querySelectorAll(".row .seat.selected");
 
- // const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
+  const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
 
-  //localStorage.setItem("selectedSeats", JSON.stringify(seatsIndex));
+  localStorage.setItem("selectedSeats", JSON.stringify(seatsIndex));
 
 
-//}
+}
 
 // get data from local storage and populate UI
 function populateUI() {
