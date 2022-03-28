@@ -1,18 +1,20 @@
 const container = document.querySelector(".container");
-const seats = document.querySelectorAll(".row .seat");
+const seats = document.querySelectorAll(".row .seat:not(.occupied)");
+const count = document.getElementById("count");
+const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
 
 populateUI();
 
+let ticketPrice = +movieSelect.value;
 
-// save selected movie index
-function setMovieData(movieIndex) {
+// save selected movie index & price
+function setMovieData(movieIndex, moviePrice) {
   localStorage.setItem("selectedMovieIndex", movieIndex);
-
+  localStorage.setItem("selectedMoviePrice", moviePrice);
 }
 
-// Update total
-
+// Update total and count
 function updateSelectedCount() {
   const selectedSeats = document.querySelectorAll(".row .seat.selected");
 
@@ -20,7 +22,10 @@ function updateSelectedCount() {
 
   localStorage.setItem("selectedSeats", JSON.stringify(seatsIndex));
 
+  const selectedSeatsCount = selectedSeats.length;
 
+  count.innerText = selectedSeatsCount;
+  total.innerText = selectedSeatsCount * ticketPrice;
 }
 
 // get data from local storage and populate UI
@@ -52,7 +57,8 @@ movieSelect.addEventListener("change", e => {
 //seat click event
 container.addEventListener("click", e => {
   if (
-    e.target.classList.contains("seat")
+    e.target.classList.contains("seat") &&
+    !e.target.classList.contains("occupied")
   ) {
     e.target.classList.toggle("selected");
 
